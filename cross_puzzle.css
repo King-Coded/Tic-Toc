@@ -1,0 +1,44 @@
+html body {
+    height: 745px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid {
+    flex: 1 0 auto;
+}
+
+.main-box {
+    margin: 60px;
+    width: 420px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.main-box ul {
+    font-size: 100%;
+}
+
+footer {
+    padding: 5px;
+    background-color: rgb(8, 28, 49);
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.fa-heart {
+    color: red;
+}
+
+.box {
+    font-family: 'Permanent Marker', cursive;
+    background-color: aliceblue;
+    font-size: 550%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid grey;
+}
